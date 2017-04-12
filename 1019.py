@@ -1,0 +1,5 @@
+N=int(input())
+hour=int(N/3600)
+minit=int((N/60)-(hour*60))
+sec=int(N%60)
+print('%d:%d:%d'%(hour,minit,sec))
